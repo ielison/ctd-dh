@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+}
+
+h1 {
+  color: #fe5e54;
+  text-shadow: black 0 2px 2px;
+  align-items: center;
+}
+
+body {
+  background-image: url('/img/background-doces.jpg');
+  font-weight: 700;
+}
+
+#quantidade {
+  width: 50px;
+  height: 20px;
+}
+
+#escolha {
+  margin-bottom: 20px;
+}
+
+#d1 {
+  margin-top: 50px;
+  margin-left: 450px;
+  padding: 30px;
+  background: #fe5e54;
+  width: 400px;
+  height: 450px;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+}
+
+#cliente {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background: #e2e0e5;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px;
+  width: 150px;
+  height: 30px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #00c9b8;
+  color: white;
+}

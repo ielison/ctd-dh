@@ -1,0 +1,1 @@
+aqui estamos aprendendo como usar o gitbash dentro do vscode e visualizando as mudanças em tempo real

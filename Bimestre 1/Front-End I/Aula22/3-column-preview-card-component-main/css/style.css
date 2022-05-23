@@ -1,0 +1,93 @@
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 20px;
+}
+
+a {
+  background-color: hsl(0, 0%, 95%);
+  color: teal;
+  padding: 10px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+.card-todos {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 20px;
+  align-items: stretch;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-car {
+  padding: 30px;
+}
+
+.card-sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-sedan a {
+  color: hsl(31, 77%, 52%);
+}
+
+.card-suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-suv a {
+  color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+.card-luxury a {
+  color: hsl(179, 100%, 13%);
+}
+
+@media (min-width: 1400px) {
+  .card-todos {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .card-car {
+    background-color: tomato;
+  }
+}
+
+@media print {
+  .card-todos {
+    flex-direction: row;
+  }
+  .card-car {
+    border: 3px solid black;
+  }
+}

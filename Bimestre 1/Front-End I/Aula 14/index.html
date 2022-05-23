@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sala 7 - Mesa de Trabalho 14</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <h1>DH DOCERIA</h1>
+  <div id="d1">
+    <p> Seja bem-vindo! Fazemos todo tipo de doce que você quiser. Prezamos pela melhor satisfação do cliente. Escolha abaixo o doce da sua preferência e a quantidade.</p>
+    <div id="cliente">
+      <label for="pnome"><h3>Nome:</h3></label>
+      <input type="text" id="pnome" name="pnome" value="Zé">
+
+      <label for="sobrenome"><h3>Sobrenome:</h3></label>
+      <input type="text" id="sobrenome" name="sobrenome" value="Formiga">
+
+     </div>
+
+    <div id="pedido">
+      <div id="escolha">
+        <h2>Escolha o seu doce</h2>
+        <form action="/doces" method="POST" >
+        <div id="form">
+          <input type="checkbox" id="bolo" name="bolo" value="bolo">
+          <label for="bolo">Bolo de chocolate - 1 kilo </label>
+          <input type="number" id="quantidade" name="quantidade" min="0">
+        </div>
+        <div id="form">
+          <input type="checkbox" id="brigadeiro" name="brigadeiro" value="brigadeiro">
+          <label for="brigadeiro">Brigadeiro (caixa com 10 unidades)</label>
+          <input type="number" id="quantidade" name="quantidade" min="0">
+        </div>
+        <div id="form">
+          <input type="checkbox" id="trufa" name="trufa" value="trufa">
+          <label for="trufa">Trufa</label>
+          <input type="number" id="quantidade" name="quantidade" min="0">
+        </div>
+        <div id="form">
+          <input type="checkbox">
+          <input type="text" id="outrodoce" name="outrodoce" value="Outro">
+          <input type="number" id="quantidade" name="quantidade" min="0">
+        </div>
+              </div>
+
+
+      
+
+      </form>
+    </div>
+
+      <div id="agenda">
+        <label for="data"><h2>Quando deseja receber o pedido?</h2></label>
+        <input type="datetime-local" id="data" name="data">
+      </div>
+        
+      <input class="btn"type="submit" value="Fazer Pedido">
+
+    <script src="script.js"></script>
+    </div>
+  </body>
+</html>

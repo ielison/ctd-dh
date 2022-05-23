@@ -1,0 +1,197 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+body {
+  background: rgb(25, 236, 37);
+  background: linear-gradient(
+    130deg,
+    rgba(25, 236, 37, 1) 0%,
+    rgba(240, 222, 5, 1) 100%
+  );
+  background-attachment: fixed;
+  min-width: 380px;
+}
+
+header {
+  padding: 15px;
+  background-color: rgba(110, 110, 110, 0.226);
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 50%;
+  min-width: 270px;
+  background-color: rgba(110, 110, 110, 0.226);
+  border-radius: 5px;
+}
+
+.enviar,
+.reset {
+  background-color: rgb(25, 152, 236);
+  color: white;
+  width: 200px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.nome,
+.phone,
+.email,
+.maioridade,
+.interesse,
+.motivo,
+.nascimento {
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(51, 51, 51);
+  background-color: rgba(110, 110, 110, 0.226);
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nome:hover,
+.phone:hover,
+.email:hover,
+.maioridade:hover,
+.interesse:hover,
+.motivo:hover,
+.nascimento:hover {
+  border: 5px dotted rgb(207, 14, 7);
+  background-color: tomato;
+  transition: 300ms;
+}
+
+.enviar:hover {
+  border: 5px double rgb(207, 14, 7);
+  background-color: rgba(37, 175, 2, 0.911);
+  transition: 150ms;
+}
+
+.reset:hover {
+  border: 3px dashed rgb(207, 14, 7);
+  background-color: rgba(228, 66, 17, 0.753);
+  transition: 150ms;
+}
+=======
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+body {
+  background: rgb(25, 236, 37);
+  background: linear-gradient(
+    130deg,
+    rgba(25, 236, 37, 1) 0%,
+    rgba(240, 222, 5, 1) 100%
+  );
+  background-attachment: fixed;
+  min-width: 380px;
+}
+
+header {
+  padding: 15px;
+  background-color: rgba(110, 110, 110, 0.226);
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 50%;
+  min-width: 270px;
+  background-color: rgba(110, 110, 110, 0.226);
+  border-radius: 5px;
+}
+
+.enviar,
+.reset {
+  background-color: rgb(25, 152, 236);
+  color: white;
+  width: 200px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.nome,
+.phone,
+.email,
+.maioridade,
+.interesse,
+.motivo,
+.nascimento {
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(51, 51, 51);
+  background-color: rgba(110, 110, 110, 0.226);
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nome:hover,
+.phone:hover,
+.email:hover,
+.maioridade:hover,
+.interesse:hover,
+.motivo:hover,
+.nascimento:hover {
+  border: 5px dotted rgb(207, 14, 7);
+  background-color: tomato;
+  transition: 300ms;
+}
+
+.enviar:hover {
+  border: 5px double rgb(207, 14, 7);
+  background-color: rgba(37, 175, 2, 0.911);
+  transition: 150ms;
+}
+
+.reset:hover {
+  border: 3px dashed rgb(207, 14, 7);
+  background-color: rgba(228, 66, 17, 0.753);
+  transition: 150ms;
+}
+>>>>>>> 98fbdaa18913d210b6d54880c4a6787b55f4728a

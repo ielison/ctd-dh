@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  background-image: url(../img/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  color: black;
+}
+
+.banner h2 {
+  color: black;
+}
+
+button {
+  width: 300px;
+  background-color: #ffd000;
+  color: darkblue;
+  border-radius: 5px;
+  padding: 20px;
+}

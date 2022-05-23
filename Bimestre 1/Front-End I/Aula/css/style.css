@@ -1,0 +1,23 @@
+body{
+  background-color: rgb (54,54,54);
+}
+
+.caixas{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+.c-02{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.c-03{
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  margin: 0 auto;
+  bott
+}
